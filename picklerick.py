@@ -6,7 +6,7 @@ import getopt
 import sys
 
 def details():
-    details = {'name': str(os.path.basename(__file__)).split('.')[0], 'category': 'exploit', 'description': 'Tool for creating payloads for exploiting Python Insecure Deserialization with pickle.', 'path': os.path.abspath(__file__)}
+    details = {'name': str(os.path.basename(__file__)).split('.')[0], 'category': 'exploit', 'description': 'Tool for creating payloads for exploiting Python Insecure Deserialization with pickle.', 'path': os.path.abspath(__file__), 'key': False}
     return(details)
 
 def module(args):
